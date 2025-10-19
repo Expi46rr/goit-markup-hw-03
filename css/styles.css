@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-  color: #2e2f42;
+  color: #434455;
   text-align: center;
 }
 a {
@@ -17,7 +17,7 @@ li {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   color: #4d5ae5;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -35,9 +35,22 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-address {
+.head_navigation:hover {
+  color: #404bbf;
+}
+.head_navigation:focus {
+  color: #404bbf;
+}
+.header_address {
   font-style: normal;
 }
+.address:hover {
+  color: #404bbf;
+}
+.address:focus {
+  color: #404bbf;
+}
+
 .address {
   font-size: 16px;
   line-height: 1.5;
@@ -51,10 +64,10 @@ address {
   font-weight: bold;
   color: #ffffff;
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
-.button_sec1 {
+.button_section_one {
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
@@ -63,8 +76,10 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.button_sec1:hover {
-  color: #ffffff;
+.button_section_one:hover {
+  background-color: #404bbf;
+}
+.button_section_one:focus {
   background-color: #404bbf;
 }
 h3 {
@@ -79,7 +94,7 @@ h3 {
 .sectointhree {
   background-color: #f4f4fd;
 }
-footer {
+.mainfooter {
   background-color: #2e2f42;
 }
 .footertext {
@@ -89,12 +104,13 @@ footer {
   letter-spacing: 0.02em;
   font-weight: 400;
 }
-.title_section_two {
+.title_section_three {
   font-weight: 700;
   font-size: 36px;
   color: #2e2f42;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .subtitle_sectoin_three {
   font-weight: 500;
@@ -132,8 +148,9 @@ footer {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
-.subtitle_h3_sectoin_four {
+.subtitle-h3-sectoin_four {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
