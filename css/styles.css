@@ -142,6 +142,8 @@ h3 {
 }
 .our_team_li_section_three {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .subtitle_sectoin_three {
@@ -151,6 +153,7 @@ h3 {
   letter-spacing: 0.02em;
   text-align: center;
   margin-top: 32px;
+  margin-bottom: 8px;
 }
 .description_sectiom_three {
   font-weight: 400;
@@ -241,6 +244,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .headeradressposition {
   display: flex;
@@ -313,9 +317,16 @@ img {
   flex-direction: column;
   flex-wrap: nowrap;
 }
-.web,
-studiotwo {
+.webfooter {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .borderheader {
   border-bottom: 1px solid #e7e9fc;
