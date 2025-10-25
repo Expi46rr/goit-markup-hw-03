@@ -311,12 +311,7 @@ img {
 .main {
   flex-grow: 1;
 }
-.footerposition {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
+
 .webfooter {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
