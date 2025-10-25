@@ -55,6 +55,7 @@ li {
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .main_title {
   background-color: #2e2f42;
@@ -66,14 +67,15 @@ li {
   line-height: 1.07;
   letter-spacing: 1.12px;
   display: flex;
-
   padding-bottom: 48px;
   justify-content: center;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
 }
 .sectiontitleposition {
-  padding: 188px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .button_section_one {
   background-color: #4d5ae5;
@@ -84,6 +86,11 @@ li {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button_section_one:hover {
   background-color: #404bbf;
@@ -105,6 +112,7 @@ h3 {
 }
 .mainfooter {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footertext {
   font-size: 16px;
@@ -135,6 +143,7 @@ h3 {
 .our_team_li_section_three {
   background-color: #ffffff;
 }
+
 .subtitle_sectoin_three {
   font-weight: 500;
   font-size: 20px;
@@ -169,6 +178,7 @@ h3 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
+  margin-bottom: 8px;
 }
 .description_sectiom_four {
   font-size: 16px;
@@ -177,14 +187,12 @@ h3 {
   letter-spacing: 0.02em;
   color: #434455;
   display: flex;
-  margin-bottom: 32px;
 }
 .border {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
 h1,
 h2,
@@ -261,6 +269,7 @@ img {
   align-content: center;
   justify-content: center;
   align-items: flex-start;
+  width: calc((100% - 72px) / 4);
 }
 
 .sectionpadding {
@@ -287,8 +296,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  width: calc((100%-48px) / 3);
   justify-content: center;
+  row-gap: 48px;
 }
 .pagecontainer {
   min-height: 100vh;
@@ -307,4 +316,19 @@ img {
 .web,
 studiotwo {
   margin-bottom: 16px;
+}
+.borderheader {
+  border-bottom: 1px solid #e7e9fc;
+}
+.sectionone {
+  padding: 188px 0;
+}
+.subtitle_sectoin_two {
+  margin-bottom: 8px;
+}
+.lipositionsecfour {
+  width: calc((100% - 48px) / 3);
+}
+.ourteamposition {
+  padding: 32px 0;
 }
