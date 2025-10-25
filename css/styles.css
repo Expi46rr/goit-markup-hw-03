@@ -33,6 +33,7 @@ li {
   color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .head_navigation:hover {
   color: #404bbf;
@@ -244,7 +245,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 .headeradressposition {
   display: flex;
