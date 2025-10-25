@@ -112,6 +112,8 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
+  width: 264px;
+  text-align: start;
 }
 .title_section_three {
   font-weight: 700;
@@ -167,7 +169,6 @@ h3 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
-  margin-top: 32px;
 }
 .description_sectiom_four {
   font-size: 16px;
@@ -182,6 +183,8 @@ h3 {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 32px;
+  padding-left: 16px;
 }
 h1,
 h2,
@@ -199,7 +202,7 @@ ul {
   padding-left: 0;
 }
 img {
-  display: flex;
+  display: block;
 }
 
 .container {
@@ -286,4 +289,22 @@ img {
   gap: 24px;
   width: calc((100%-48px) / 3);
   justify-content: center;
+}
+.pagecontainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  flex-grow: 1;
+}
+.footerposition {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.web,
+studiotwo {
+  margin-bottom: 16px;
 }
