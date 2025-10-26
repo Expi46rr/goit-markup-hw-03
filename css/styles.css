@@ -34,6 +34,7 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 .head_navigation:hover {
   color: #404bbf;
@@ -68,7 +69,6 @@ li {
   line-height: 1.07;
   letter-spacing: 1.12px;
   display: flex;
-  padding-bottom: 48px;
   justify-content: center;
   max-width: 496px;
   margin: 0 auto;
@@ -92,6 +92,7 @@ li {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-top: 48px;
 }
 .button_section_one:hover {
   background-color: #404bbf;
@@ -121,7 +122,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
-  width: 264px;
+  max-width: 264px;
   text-align: start;
 }
 .title_section_three {
@@ -153,7 +154,6 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .description_sectiom_three {
@@ -163,7 +163,6 @@ h3 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 .subtitle_sectoin_four {
   font-weight: 700;
@@ -181,8 +180,8 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
   margin-bottom: 8px;
+  text-align: left;
 }
 .description_sectiom_four {
   font-size: 16px;
@@ -190,7 +189,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  display: flex;
+  text-align: left;
 }
 .border {
   border-left: 1px solid #e7e9fc;
@@ -220,6 +219,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .headerposition {
   display: flex;
@@ -228,6 +228,7 @@ img {
   justify-content: space-between;
   align-content: center;
   padding: 0 15px;
+  align-items: center;
 }
 .navposition {
   display: flex;
@@ -248,13 +249,7 @@ img {
 }
 .headeradressposition {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
   gap: 40px;
-  height: 72px;
 }
 
 .ulsectiontwoposition {
@@ -321,7 +316,8 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin-bottom: 16px;
-  display: inline-block;
+  display: flex;
+  justify-content: start;
 }
 .borderheader {
   border-bottom: 1px solid #e7e9fc;
@@ -337,4 +333,7 @@ img {
 }
 .ourteamposition {
   padding: 32px 0;
+}
+address {
+  font-style: normal;
 }
